@@ -1,0 +1,11 @@
+body{
+    background-color: blue;
+}
+#box {
+    border-right: 1px solid black;
+}
+p {
+    border: 1px solid black;
+    box-sizing:border-box;
+    
+}
