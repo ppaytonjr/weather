@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>7-day forecast</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>5-day forecast</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
+
 <body>
-        <div class="container">
-                <div class="row">
-                  <div class="col-3" id="box">
-                      
-                    <h2>
-                        Search for a City
-                    </h2>
-                    <div id="buttons-view"></div>
-                    <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                              <button class="btn btn-outline-secondary" type="button" id="button-addon1">City Search</button>
-                            </div>
-                            <input type="text" class="form-control" id="cityInput" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                        </div> 
-                           
+  <div class="container">
+    <div class="row">
+      <div class="col-3" id="box">
 
-                         </div>
-                             
-                  <div class="col-9">
-                      <header><h1>Weather Forecast</h1></header>
-
-                      <div id="box2">
-                    <h2 id="citySearch" placeholder="City Name"> </h2>
-                    <h4 id="todayDate"></h4>
-                    <div id="daysHere">
-                    <div id="weatherHere">
-                      </div>
-                    </div>
-                    </div>
-                  </div>        
-                  
+        <h2>
+          Search for a City
+        </h2>
+        <div id="buttons-view"></div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon1">City Search</button>
+          </div>
+          <input type="text" class="form-control" id="cityInput" placeholder=""
+            aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
 
 
+      </div>
 
-                  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+      <div class="col-9">
+        <header>
+          <h1>Weather Forecast</h1>
+        </header>
+
+        <div id="box2">
+          <h2 id="citySearch" placeholder="City Name"> </h2>
+          <h4 id="todayDate"></h4>
+          <div id="daysHere">
+            <div id="weatherHere">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>
